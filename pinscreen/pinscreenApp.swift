@@ -2,6 +2,11 @@ import SwiftUI
 import AppKit
 import ServiceManagement
 internal import Combine
+import KeyboardShortcuts
+
+extension KeyboardShortcuts.Name {
+    static let showPicker = Self("showPicker", default: .init(.p, modifiers: [.control, .option]))
+}
 
 enum Side: String, CaseIterable, Identifiable {
     case left, right, top, bottom
@@ -85,6 +90,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                 }
             }
             self.lastCount = ids.count
+        }
+        
+        KeyboardShortcuts.onKeyUp(for: .showPicker) { [weak self] in
+            self?.showPicker()
         }
     }
 
