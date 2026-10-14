@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7C5D5D75307FA5B0006546BC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7C5D5D73307FA5B0006546BC /* LICENSE */; };
+		7C5D5D76307FA5B0006546BC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C5D5D74307FA5B0006546BC /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7C5D5D58307FA491006546BC /* pinscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinscreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5D5D73307FA5B0006546BC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7C5D5D74307FA5B0006546BC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +41,8 @@
 			children = (
 				7C5D5D5A307FA491006546BC /* pinscreen */,
 				7C5D5D59307FA491006546BC /* Products */,
+				7C5D5D73307FA5B0006546BC /* LICENSE */,
+				7C5D5D74307FA5B0006546BC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5D5D75307FA5B0006546BC /* LICENSE in Resources */,
+				7C5D5D76307FA5B0006546BC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +270,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +303,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

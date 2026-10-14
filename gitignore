@@ -1,0 +1,17 @@
+.DS_Store
+
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+
+.swiftpm/
+.build/
+Packages/
+Pods/
+
+*.dmg
+*.app
+*.dSYM.zip
+*.dSYM
